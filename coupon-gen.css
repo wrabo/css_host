@@ -1,0 +1,135 @@
+.container{
+    padding-bottom: 10px;
+}
+.pageBreak {page-break-before: always;}
+.coupon-code-text {
+    z-index: 10001 !important;
+    position: absolute;
+    top:87%;
+    left: 40%;
+    right: auto;
+    bottom: auto;
+    font-size: 23pt !important;
+
+}
+.name-text {
+    z-index: 10001 !important;
+    position: absolute;
+    top: 42%;
+    left: 40%;
+    right: auto;
+    bottom: auto;
+    font-size: 23pt !important;
+
+}
+
+.cid-text {
+    z-index: 10001 !important;
+    position: absolute;
+    top:65%;
+    left: 42%;
+    right: auto;
+    bottom: auto;
+    font-size: 25pt !important;
+
+}
+#copDiv { 
+    /* width: 50%; */
+    top: 0;
+    left: 0;
+    width: auto;
+  position: relative; 
+  margin: auto;
+  color: #712B68 !important; 
+  /* width: 100%; for IE 6 */
+}
+.imgwrap{
+    top: 0;
+    left: 0;
+    width: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 99;
+    margin: auto;
+    color: #712B68 !important; 
+   
+  }
+  .main-text{
+    color: #712B68 !important;
+    font-weight:normal !important;
+    font-size:15pt;
+  }
+
+@media (max-width: 576px) {
+    .pageBreak {page-break-before: always;}
+    
+    .coupon-code-text {
+        z-index: 10001 !important;
+        position: absolute;
+        top:82%;
+        left: 20%;
+        right: auto;
+        bottom: auto;
+        font-size: 10pt !important;
+    
+    }
+    .name-text {
+        z-index: 10001 !important;
+        position: absolute;
+        top: 42%;
+        left: 22%;
+        right: auto;
+        bottom: auto;
+        font-size: 18pt !important;
+    
+    }
+    .cid-text {
+        z-index: 10001 !important;
+        position: absolute;
+        top:50%;
+        left: 25%;
+        right: auto;
+        bottom: auto;
+        font-size: 12pt !important;
+    
+    }
+
+}
+
+@media (max-width: 992px) {
+
+   
+    .pageBreak {page-break-before: always;}
+    .coupon-code-text {
+        z-index: 10001 !important;
+        position: absolute;
+        top:86%;
+        left: 25%;
+        right: auto;
+        bottom: auto;
+        font-size: 18pt !important;
+    
+    }
+    .name-text {
+        z-index: 10001 !important;
+        position: absolute;
+        top: 41%;
+        left: 20%;
+        right: auto;
+        bottom: auto;
+        font-size: 18pt !important;
+    
+    }
+    .cid-text {
+        z-index: 10001 !important;
+        position: absolute;
+        top:62%;
+        left: 20%;
+        right: auto;
+        bottom: auto;
+        font-size: 18pt !important;
+    
+    }
+
+
+}
